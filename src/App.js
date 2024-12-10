@@ -2,21 +2,17 @@ import logo from "./logo.svg";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Nav from "./Components/Nav";
-import Hero from "./Components/Hero";
-import Services from "./Components/Services";
+import Footer from "./Components/Footer";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <Router>
       <Nav />
-      <Services />
-
-      {/* <Hero /> */}
       <Routes>
-        <Route />
-        <Route />
-        <Route />
+        <Route path="" element={<Home />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

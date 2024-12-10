@@ -1,30 +1,23 @@
 import React from "react";
-import Black_Logo from "../assets/cream__Logo.svg";
-import { Link } from "react-router-dom";
+import Black_Logo from "../assets/White JAZ LOGO.png";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
-    <div className="hero">
-      <div className="nav__section">
-        <div className="nav__logo">
-          <img src={Black_Logo} className="nav__logo--img" />
-        </div>
-        <div className="nav__links">
-          <Link className="nav__link--component">Home</Link>
-          <Link className="nav__link--component">About</Link>
-          <Link className="button">Contact</Link>
-        </div>
+    <div className="nav__section">
+      <div className="nav__logo">
+        <img src={Black_Logo} className="nav__logo--img" />
       </div>
-      <div className="hero__section">
-        <div className="hero__left">
-          <h1 className="hero__title text__shadow">
-            Elevate Your Home's
-            <br /> <span className="">Greenery</span>
-          </h1>
-          <div className="hero__button"></div>
-          <Link className="button hero__btn">Learn More</Link>
-        </div>
-        <div className="hero__right"></div>
+      <div className="nav__links">
+        <NavLink className="nav__link--component" to="">
+          Home
+        </NavLink>
+        <NavLink className="nav__link--component" to="/About">
+          About
+        </NavLink>
+        <NavLink className="button" to="/Contact">
+          Contact
+        </NavLink>
       </div>
     </div>
   );
