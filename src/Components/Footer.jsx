@@ -10,9 +10,15 @@ function Footer() {
           <img src={FooterLogo} alt="" />
         </div>
         <div className="footer__links">
-          <Link className="footer__link">Home</Link>
-          <Link className="footer__link">About</Link>
-          <Link className="footer__link">Contact</Link>
+          <Link className="footer__link" to={""}>
+            Home
+          </Link>
+          <Link className="footer__link" to={"/About"}>
+            About
+          </Link>
+          <Link className="footer__link" to={"/Contact"}>
+            Contact
+          </Link>
         </div>
       </div>
       <div className="footer__design">

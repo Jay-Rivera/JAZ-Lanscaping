@@ -11,7 +11,9 @@ function Hero() {
             <br /> <span className="">Greenery</span>
           </h1>
           <div className="hero__button"></div>
-          <Link className="button hero__btn">Learn More</Link>
+          <Link className="button hero__btn" to="/About">
+            Learn More
+          </Link>
         </div>
         <div className="hero__right"></div>
       </div>
