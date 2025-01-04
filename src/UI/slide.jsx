@@ -28,7 +28,7 @@ function Slide() {
       600: {
         items: 2,
       },
-      900: {
+      992: {
         items: 3,
       },
     },

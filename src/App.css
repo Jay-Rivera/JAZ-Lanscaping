@@ -198,6 +198,7 @@ body {
 
 .service__description {
   font-size: 1.2rem;
+  text-align: center;
 }
 
 
@@ -429,8 +430,8 @@ About Page
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-evenly;
+  width: 90%;
+  justify-content: space-around;
   align-items: center;
   gap: 20px;
 }
@@ -440,10 +441,10 @@ About Page
   padding: 40px;
   border-radius: 20px;
   height: 400px;
-  width: 100%;
-  max-width: calc(100%/3);
+  width: calc(90%/3);
   box-shadow: 5px 5px 20px black;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .service__sub--title {
@@ -650,4 +651,282 @@ textarea:focus {
 
 .e-link:hover {
   font-weight: 700;
+}
+
+/* small phones, tablets, large smart phones */
+
+@media (max-width:992px) {
+  .nav__section {
+    width: 850px;
+  }
+
+  .owner__image {
+    height: 600px;
+  }
+
+  .owner__slide {
+    height: 600px;
+  }
+
+  .owner__slide--text {
+    font-size: 18px;
+  }
+
+  /* ABOUT PAGE */
+
+
+  .service__img {
+    width: 300px;
+    height: 500px;
+  }
+
+  .service__section {
+    width: 100vw;
+  }
+
+  .service__bottom--section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .service__bottom--container {
+    max-width: none;
+    width: 80%;
+  }
+
+}
+
+/* small phones, tablets, large smart phones */
+
+@media (max-width:768px) {
+  .nav__section {
+    width: 700px;
+  }
+
+  .hero__left {
+    margin-left: 40px;
+  }
+
+  .service__slide {
+    width: 350px;
+    height: 400px;
+  }
+
+  .service__image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .owner__image {
+    height: 600px;
+  }
+
+  .owner__section {
+    width: 100%;
+    height: auto;
+  }
+
+  .owner__slides {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 80%;
+    height: 1000px
+  }
+
+
+
+
+  .owner__slide {
+    height: 600px;
+    width: 100%;
+    margin: 40px 0 10px 0;
+    box-shadow: 2px 2px 20px black;
+
+  }
+
+  .owner__slide--text {
+    font-size: 18px;
+  }
+
+  /* ABOUT PAGE */
+
+
+  .service__img {
+    width: 300px;
+    height: 500px;
+  }
+
+  .service__section {
+    width: 100vw;
+  }
+
+  .service__bottom--section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .service__bottom--container {
+    max-width: none;
+    width: 80%;
+  }
+
+  /* Contact Page */
+
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+  }
+
+  .contact__half {
+    width: 100%;
+  }
+
+  .form__submit {
+    margin: 20px auto;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .form__item {
+    width: 100%;
+  }
+
+}
+
+/* small phones, tablets, large smart phones */
+
+@media (max-width:600px) {
+  .nav__section {
+    width: 500px;
+  }
+
+  .nav__logo--img {
+    width: 250px;
+  }
+
+  .hero__left {
+    margin-left: 40px;
+  }
+
+  .service__slide {
+    width: 350px;
+    height: 400px;
+    margin: 0 auto
+  }
+
+  .service__image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .owner__image {
+    height: 600px;
+  }
+
+  .owner__section {
+    width: 100%;
+    height: auto;
+  }
+
+  .owner__slides {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 80%;
+    height: 1000px
+  }
+
+  .quote__section {
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  .owner__slide {
+    height: 600px;
+    width: 100%;
+    margin: 40px 0 10px 0;
+    box-shadow: 2px 2px 20px black;
+
+  }
+
+  .owner__slide--text {
+    font-size: 18px;
+  }
+
+  /* ABOUT PAGE */
+
+
+  .service__img {
+    width: 300px;
+    height: 500px;
+    margin-left: 40px;
+  }
+
+  .service__section {
+    width: 100vw;
+  }
+
+  .service__bottom--section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .service__bottom--container {
+    max-width: none;
+    width: 80%;
+  }
+
+  /* Contact Page */
+
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+  }
+
+  .contact__half {
+    width: 100%;
+  }
+
+  .form__submit {
+    margin: 20px auto;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .form__item {
+    width: 100%;
+  }
+
+  .footer__main {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 40px auto;
+    height: 100px;
+  }
+
+  .footer__logo {
+    display: none;
+  }
+
+
 }

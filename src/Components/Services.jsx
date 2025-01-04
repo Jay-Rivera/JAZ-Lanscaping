@@ -18,10 +18,10 @@ function Services() {
       0: {
         items: 1,
       },
-      600: {
+      768: {
         items: 2,
       },
-      900: {
+      992: {
         items: 3,
       },
       1200: {
