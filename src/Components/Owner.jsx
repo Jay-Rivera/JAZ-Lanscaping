@@ -21,7 +21,6 @@ function Owner() {
               expertise neeeded to ensure every lawn reaches the elegancy it
               deserves."
             </h2>
-            <h3 className="owner__slide--signature">- JAZ</h3>
           </div>
           <div className="owner__slide">
             <h2 className="owner__slide--text">

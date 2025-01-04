@@ -6,7 +6,9 @@ function Nav() {
   return (
     <div className="nav__section">
       <div className="nav__logo">
-        <img src={Black_Logo} className="nav__logo--img" />
+        <NavLink to="">
+          <img src={Black_Logo} className="nav__logo--img" />
+        </NavLink>
       </div>
       <div className="nav__links">
         <NavLink className="nav__link--component" to="">
