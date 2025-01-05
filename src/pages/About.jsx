@@ -11,40 +11,6 @@ function About() {
           <h1>Our Services</h1>
         </div>
         <Slide />
-        {/* <div className="service__carousel">
-          <OwlCarousel className="owl-theme" {...options}>
-            <div className="service__img">
-              <img src={pic1} alt="" />
-            </div>
-            <div className="service__img">
-              <img src={pic2} alt="" />
-            </div>
-            <div className="service__img">
-              <img src={pic3} alt="" />
-            </div>
-            <div className="service__img">
-              <img src={pic4} alt="" />
-            </div>
-            <div className="service__img">
-              <img src={pic5} alt="" />
-            </div>
-            <div className="service__img">
-              <img src={pic6} alt="" />
-            </div>
-            <div className="service__img">
-              <img src={pic7} alt="" />
-            </div>
-            <div className="service__img">
-              <img src={pic8} alt="" />
-            </div>
-            <div className="service__img">
-              <img src={pic9} alt="" />
-            </div>
-            <div className="service__img">
-              <img src={pic10} alt="" />
-            </div>
-          </OwlCarousel>
-        </div> */}
       </div>
       <div className="service__bottom--section">
         <div className="service__bottom--container">

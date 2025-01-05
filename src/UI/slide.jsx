@@ -47,7 +47,7 @@ function Slide() {
           <img src={pic3} class="about__image" alt="" />
         </div>
         <div class="service__img">
-          <img src={pic4} class="about__image" alt="" />
+          <img src={pic4} class="about__image img__4" alt="" />
         </div>
         <div class="service__img">
           <img src={pic5} class="about__image" alt="" />
