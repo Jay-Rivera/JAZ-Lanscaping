@@ -31,13 +31,17 @@ function Nav() {
         <div className={burger_class}></div>
       </div>
       <div className={menu_class}>
-        <NavLink className="nav__link--component" to="">
+        <NavLink onClick={updateMenu} className="nav__link--component" to="">
           Home
         </NavLink>
-        <NavLink className="nav__link--component" to="/About">
+        <NavLink
+          onClick={updateMenu}
+          className="nav__link--component"
+          to="/About"
+        >
           About
         </NavLink>
-        <NavLink className="button" to="/Contact">
+        <NavLink onClick={updateMenu} className="button" to="/Contact">
           Contact
         </NavLink>
       </div>
